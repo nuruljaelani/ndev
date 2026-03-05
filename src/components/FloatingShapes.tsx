@@ -9,7 +9,7 @@ export default function FloatingShapes() {
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
         className="absolute top-4 left-1/3 w-16 h-16 bg-[#A084E8] rounded-2xl brutal-border hidden md:flex items-center justify-center drop-shadow-[4px_4px_0px_#1D1D1B]"
       >
-        <span className="text-3xl font-bold text-white">F</span>
+        <span className="text-3xl font-bold text-white">N</span>
       </motion.div>
 
       {/* Top Right Blue Triangle */}

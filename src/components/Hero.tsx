@@ -10,7 +10,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           className="font-body text-xl font-medium text-[#1D1D1B]"
         >
-          Hi, my name is Jay.
+          Hi, welcome.
         </motion.h3>
 
         <motion.h1
@@ -78,8 +78,8 @@ export default function Hero() {
                 d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
               ></path>
             </svg>
-            <div className="font-heading font-bold text-gray-500 text-xl tracking-wide uppercase text-center">
-              <img src="/images/gm1.jpg" alt="" />
+            <div className="font-heading font-bold text-gray-500 text-xl tracking-wide uppercase text-center absolute">
+              <img src="/images/gm1.jpg" alt="" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

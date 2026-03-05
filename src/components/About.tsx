@@ -18,14 +18,13 @@ export default function About() {
               Who am I?
             </h2>
             <p className="font-body text-[#1D1D1B] text-lg font-medium leading-relaxed mb-4">
-              I am a passionate engineer obsessed with building
+              I am a passionate Full Stack Developer obsessed with building
               digital experiences that feel alive. I get inspiration from
               the latest trends in technology, and the sheer
               chaos of the creative process.
             </p>
             <p className="font-body text-[#1D1D1B] text-lg font-medium leading-relaxed">
-              When I'm not coding, I'm mentoring junior developers,
-              speaking at conferences, or finding the perfect coffee blend.
+              When I'm not coding, I'm mentoring junior developers or finding the perfect coffee blend.
             </p>
           </motion.div>
 
