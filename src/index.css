@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #f8efe5;
+  --color-accent-yellow: #ffc03f;
+  --color-accent-pink: #f84f86;
+  --color-accent-green: #0bb195;
+  --color-accent-blue: #6486d3;
+  --color-accent-purple: #9055f4;
+
+  --color-text-main: #1d1d1b;
+  --color-border-main: #1d1d1b;
+
+  --shadow-brutal: 4px 4px 0px 0px var(--color-border-main);
+  --shadow-brutal-lg: 8px 8px 0px 0px var(--color-border-main);
+
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-main);
+    font-family: var(--font-body);
+    font-weight: 500;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    font-weight: 800;
+  }
+}
+
+@layer utilities {
+  .brutal-border {
+    border: 3px solid var(--color-border-main);
+    border-radius: 16px;
+  }
+  .brutal-shadow {
+    box-shadow: var(--shadow-brutal);
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .brutal-shadow:hover {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px 0px var(--color-border-main);
+  }
+  .brutal-button {
+    background-color: var(--color-accent-yellow);
+    border: 3px solid var(--color-border-main);
+    border-radius: 12px;
+    box-shadow: var(--shadow-brutal);
+    transition: all 0.2s ease;
+    font-weight: 700;
+  }
+  .brutal-button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: var(--shadow-brutal-lg);
+  }
+  .brutal-button:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px 0px var(--color-border-main);
+  }
+  .brutal-card {
+    background-color: #ffffff;
+    border: 3px solid var(--color-border-main);
+    border-radius: 20px;
+    box-shadow: var(--shadow-brutal);
+  }
+}
