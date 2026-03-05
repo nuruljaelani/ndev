@@ -10,7 +10,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           className="font-body text-xl font-medium text-[#1D1D1B]"
         >
-          Hi, welcome.
+          Hi, I'm Jay.
         </motion.h3>
 
         <motion.h1

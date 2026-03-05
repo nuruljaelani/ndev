@@ -4,32 +4,33 @@ import { Link } from "react-router-dom";
 const projects = [
   {
     id: "ecommerce-app",
-    title: "Neon Skates",
+    title: "FarmHub",
     category: "E-Commerce / App Design",
     color: "bg-accent-pink",
     image: "bg-[#FFD1DF]",
+    src: "/images/farmhub.jpeg",
   },
-  {
-    id: "fintech-dashboard",
-    title: "Moneta",
-    category: "Fintech / Dashboard",
-    color: "bg-accent-blue",
-    image: "bg-[#D1DEFF]",
-  },
-  {
-    id: "health-tracker",
-    title: "Vitality",
-    category: "HealthTech / Mobile App",
-    color: "bg-accent-green",
-    image: "bg-[#D1F5ED]",
-  },
-  {
-    id: "saas-landing",
-    title: "CloudSync",
-    category: "SaaS / Web Design",
-    color: "bg-[#9055F4]",
-    image: "bg-[#E5D1FF]",
-  },
+  // {
+  //   id: "fintech-dashboard",
+  //   title: "Moneta",
+  //   category: "Fintech / Dashboard",
+  //   color: "bg-accent-blue",
+  //   image: "bg-[#D1DEFF]",
+  // },
+  // {
+  //   id: "health-tracker",
+  //   title: "Vitality",
+  //   category: "HealthTech / Mobile App",
+  //   color: "bg-accent-green",
+  //   image: "bg-[#D1F5ED]",
+  // },
+  // {
+  //   id: "saas-landing",
+  //   title: "CloudSync",
+  //   category: "SaaS / Web Design",
+  //   color: "bg-[#9055F4]",
+  //   image: "bg-[#E5D1FF]",
+  // },
 ];
 
 export default function Portfolio() {
@@ -100,8 +101,8 @@ export default function Portfolio() {
                 </motion.div>
                 {/* Decorative structural line simulating wireframe */}
                 <div className="absolute inset-4 border-2 border-white/40 rounded-2xl pointer-events-none" />
-                <div className="absolute inset-0 flex items-center justify-center opacity-30 text-8xl font-black font-heading tracking-tighter mix-blend-overlay">
-                  {index + 1}
+                <div className="absolute inset-0 flex items-center justify-center opacity-90 text-8xl font-black font-heading tracking-tighter mix-blend-multiply">
+                  <img src={project.src} alt="" className="w-full h-full object-cover" />
                 </div>
               </div>
             </Link>
