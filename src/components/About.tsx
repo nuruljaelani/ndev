@@ -37,7 +37,7 @@ export default function About() {
             className="flex gap-4 flex-wrap"
           >
             <div className="brutal-card bg-accent-yellow px-6 py-4 flex flex-col items-center flex-1 min-w-[120px]">
-              <span className="font-heading font-black text-3xl">3+</span>
+              <span className="font-heading font-black text-3xl">4+</span>
               <span className="font-body font-bold text-sm uppercase tracking-wider">
                 Years Exp
               </span>

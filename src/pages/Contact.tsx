@@ -14,7 +14,7 @@ export default function Contact() {
           >
             ← Back to Home
           </Link>
-          <span className="font-heading font-black text-xl">ndev.digital</span>
+          <span className="font-heading font-black text-xl">ndev.web.id</span>
         </header>
 
         <main className="flex-1 px-6 md:px-12 py-12 lg:py-24 max-w-4xl mx-auto w-full z-10 flex flex-col justify-center">

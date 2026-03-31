@@ -17,7 +17,7 @@ export default function Footer() {
           </motion.h2>
 
           <a
-            href="mailto:hello@ndev.digital"
+            href="mailto:hello@ndev.web.id"
             className="inline-block mt-8 font-body font-bold text-2xl md:text-4xl text-[#1D1D1B] hover:text-white hover:drop-shadow-[3px_3px_0px_#1D1D1B] transition-all duration-300"
           >
             hello@ndev.web.id →
@@ -46,23 +46,6 @@ export default function Footer() {
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                 <rect x="2" y="9" width="4" height="12"></rect>
                 <circle cx="4" cy="4" r="2"></circle>
-              </svg>
-            </a>
-            <a
-              href="#"
-              className="w-14 h-14 bg-white rounded-full brutal-border shadow-[4px_4px_0px_#1D1D1B] hover:shadow-none hover:translate-y-1 hover:translate-x-1 transition-all flex items-center justify-center shrink-0"
-            >
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#1D1D1B"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
               </svg>
             </a>
             <a
