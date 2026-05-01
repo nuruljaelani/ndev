@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
+
+  const onClickStartGrowing = () => {
+    navigate("/contact");
+  };
   return (
     <section className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6 md:px-12 lg:px-24 py-16 lg:py-24 max-w-7xl mx-auto gap-12 min-h-[70vh]">
       {/* Left Text Content */}
@@ -47,7 +53,7 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
           className="pt-6"
         >
-          <button className="brutal-button text-2xl px-10 py-4 font-black tracking-wide">
+          <button className="brutal-button text-2xl px-10 py-4 font-black tracking-wide cursor-pointer" onClick={onClickStartGrowing}>
             Start growing
           </button>
         </motion.div>
