@@ -85,7 +85,7 @@ export default function Hero() {
               ></path>
             </svg>
             <div className="font-heading font-bold text-gray-500 text-xl tracking-wide uppercase text-center absolute">
-              <img src="/images/gm1.jpg" alt="" className="w-full h-full object-cover" />
+              <img src="/images/iam.jpg" alt="" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
