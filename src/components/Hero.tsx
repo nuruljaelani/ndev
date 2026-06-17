@@ -23,17 +23,17 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="font-heading text-6xl md:text-[5rem] lg:text-[6rem] font-black leading-[1.05] tracking-tight text-[#1D1D1B]"
+          className="font-heading text-4xl md:text-6xl lg:text-7xl font-black tracking-tight text-[#1D1D1B]"
         >
-          I BUILD FOR <br />
-          <span className="relative inline-block mt-2 lg:mt-4">
-            GROWTH.
+          BUILD PRODUCTS <br />
+          <span className="relative inline-block mt-2 lg:mt-4 text-3xl md:text-4xl lg:text-5xl">
+            PEOPLE ACTUALLY USE.
             {/* The underlying yellow highlight */}
             <motion.div
               initial={{ width: 0 }}
               animate={{ width: "100%" }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-              className="absolute bottom-2 md:bottom-3 left-0 h-4 md:h-6 bg-accent-yellow -z-10"
+              className="absolute bottom-2 md:bottom-3 left-0 h-3 md:h-5 bg-accent-yellow -z-10"
             />
           </span>
         </motion.h1>
@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{ delay: 0.3 }}
           className="font-body text-lg md:text-xl max-w-lg leading-relaxed text-[#1D1D1B] font-medium pt-4"
         >
-          I'm a Full Stack Developer with a background in building scalable web and mobile applications.
+          Full Stack Developer helping startups and businesses to build a  web and mobile applications.
         </motion.p>
 
         <motion.div
@@ -54,7 +54,7 @@ export default function Hero() {
           className="pt-6"
         >
           <button className="brutal-button text-2xl px-10 py-4 font-black tracking-wide cursor-pointer" onClick={onClickStartGrowing}>
-            Start growing
+            Let's Build Together
           </button>
         </motion.div>
       </div>
@@ -140,7 +140,7 @@ export default function Hero() {
         {/* Availability Badge */}
         <div className="absolute -bottom-4 right-0 bg-accent-green text-[#1D1D1B] px-5 py-2 brutal-border shadow-[4px_4px_0px_#1D1D1B] rounded-full flex items-center gap-3 font-bold text-sm lg:text-base z-30 whitespace-nowrap">
           <div className="w-3 h-3 bg-white rounded-full border-2 border-[#1D1D1B] shadow-[1px_1px_0px_#1D1D1B]" />
-          Available for Freelance
+          Open for Projects
         </div>
       </motion.div>
     </section>

@@ -16,7 +16,7 @@ export default function Portfolio() {
             viewport={{ once: true }}
             className="font-body font-bold text-gray-500 text-sm md:text-base tracking-widest uppercase"
           >
-            Selected Masterpieces
+            Things I've Built
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -25,11 +25,11 @@ export default function Portfolio() {
             transition={{ delay: 0.1 }}
             className="font-heading text-4xl md:text-5xl lg:text-6xl font-black text-[#1D1D1B] tracking-tight"
           >
-            My Work
+            Featured Projects
           </motion.h2>
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
@@ -37,7 +37,7 @@ export default function Portfolio() {
           <button className="brutal-button px-8 py-3 text-lg hidden md:block">
             View all projects
           </button>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 cursor-pointer">
@@ -110,11 +110,11 @@ export default function Portfolio() {
         ))}
       </div>
 
-      <div className="mt-12 flex justify-center md:hidden">
+      {/* <div className="mt-12 flex justify-center md:hidden">
         <button className="brutal-button px-8 py-3 text-lg w-full max-w-sm">
           View all projects
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }

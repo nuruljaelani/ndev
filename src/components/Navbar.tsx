@@ -60,21 +60,21 @@ export default function Navbar() {
             href="#about"
             className="hover:-translate-y-1 transition-transform relative group"
           >
-            About
+            About Me
             <span className="absolute -bottom-2 left-0 w-full h-1 bg-accent-yellow scale-x-0 group-hover:scale-x-100 transition-transform origin-left rounded" />
           </a>
           <a
             href="#what-i-do"
             className="hover:-translate-y-1 transition-transform relative group"
           >
-            What I Do
+            Services
             <span className="absolute -bottom-2 left-0 w-full h-1 bg-accent-yellow scale-x-0 group-hover:scale-x-100 transition-transform origin-left rounded" />
           </a>
           <a
             href="#my-work"
             className="hover:-translate-y-1 transition-transform relative group"
           >
-            My Work
+            Projects
             <span className="absolute -bottom-2 left-0 w-full h-1 bg-accent-yellow scale-x-0 group-hover:scale-x-100 transition-transform origin-left rounded" />
           </a>
         </div>
@@ -86,7 +86,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.95 }}
             className="bg-[#8DA1FF] text-[#1D1D1B] px-8 py-3 rounded-full brutal-border brutal-shadow font-heading text-2xl font-bold"
           >
-            Contact Me
+            Let's Talk
           </motion.button>
         </Link>
 
@@ -128,7 +128,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="font-heading text-3xl font-bold hover:text-[#8DA1FF] transition-colors"
             >
-              About
+              About Me
             </motion.a>
             <motion.a
               variants={itemVariants}
@@ -136,7 +136,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="font-heading text-3xl font-bold hover:text-[#8DA1FF] transition-colors"
             >
-              What I Do
+              Services
             </motion.a>
             <motion.a
               variants={itemVariants}
@@ -144,7 +144,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="font-heading text-3xl font-bold hover:text-[#8DA1FF] transition-colors"
             >
-              My Work
+              Projects
             </motion.a>
             <motion.div variants={itemVariants}>
               <Link to="/contact" onClick={() => setIsOpen(false)}>
@@ -153,7 +153,7 @@ export default function Navbar() {
                   whileTap={{ scale: 0.95 }}
                   className="bg-[#8DA1FF] text-[#1D1D1B] mt-4 px-8 py-3 rounded-full brutal-border brutal-shadow font-heading text-2xl font-bold"
                 >
-                  Contact Me
+                  Let's Talk
                 </motion.button>
               </Link>
             </motion.div>

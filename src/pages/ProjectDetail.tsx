@@ -60,6 +60,20 @@ export default function ProjectDetail() {
                   {project?.description}
                 </p>
               </section>
+              {/* Features */}
+              <section className="space-y-4">
+                <h2 className="font-heading text-3xl font-black">
+                  Features
+                </h2>
+                <ul className="space-y-2">
+                  {project?.features.map((feature, index) => (
+                    <li key={index} className="flex items-center space-x-2">
+                      <span className="w-2 h-2 bg-[#1D1D1B] rounded-full" />
+                      <span className="font-medium">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
             </div>
 
             {/* Sidebar Details */}
@@ -79,6 +93,35 @@ export default function ProjectDetail() {
                   Platform
                 </h3>
                 <p className="font-bold">{project?.platform}</p>
+              </div>
+              {/* Technologies */}
+              <div className="brutal-card p-6 bg-accent-blue">
+                <h3 className="font-heading font-black text-xl mb-2">
+                  Technologies
+                </h3>
+                <div className="flex flex-wrap gap-2 mt-3">
+                  {project?.technologies.map((tech, index) => (
+                    <span key={index} className="px-3 py-1 rounded-full bg-black text-white text-sm font-bold brutal-border shadow-[2px_2px_0px_#1D1D1B]">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              {/* Links */}
+              <div className="brutal-card p-6 bg-accent-orange">
+                <h3 className="font-heading font-black text-xl mb-2">
+                  Links
+                </h3>
+                <div className="flex flex-col space-y-3">
+                  <a href={project?.links.demo} target="_blank" rel="noopener noreferrer" className="brutal-button px-6 py-2 text-sm bg-white hover:bg-accent-yellow text-center">
+                    Visit Website
+                  </a>
+                  {project?.links.github && (
+                    <a href={project?.links.github} target="_blank" rel="noopener noreferrer" className="brutal-button px-6 py-2 text-sm bg-white hover:bg-accent-yellow text-center">
+                      View Repository
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </div>

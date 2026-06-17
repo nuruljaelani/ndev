@@ -15,12 +15,11 @@ export default function Footer() {
               EPIC.
             </span>
           </motion.h2>
-
           <a
             href="mailto:hello@ndev.web.id"
             className="inline-block mt-8 font-body font-bold text-2xl md:text-4xl text-[#1D1D1B] hover:text-white hover:drop-shadow-[3px_3px_0px_#1D1D1B] transition-all duration-300"
           >
-            hello@ndev.web.id →
+            Available for freelance & collaboration →
           </a>
         </div>
 

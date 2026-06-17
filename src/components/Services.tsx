@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const services = [
   {
     title: "Web Development",
-    description: "I specialize in creating effective websites for startups.",
+    description: "Fast, scalable, and modern websites built to support real business growth.",
     icon: (
       <img src="/icons/web-dev.svg" alt="" className="w-10 h-10" />
     ),
@@ -11,7 +11,7 @@ const services = [
   },
   {
     title: "Mobile App Development",
-    description: "I can build your mobile app for iOS and Android.",
+    description: "Cross-platform mobile apps designed for performance and smooth user experience.",
     icon: (
       <svg
         width="40"
@@ -33,8 +33,8 @@ const services = [
     color: "bg-accent-green", // green
   },
   {
-    title: "Education",
-    description: "I help junior developers kickstart their development career.",
+    title: "System Architecture",
+    description: "Scalable, reliable, and cost-efficient cloud-native solutions.",
     icon: (
       <svg
         width="40"
@@ -46,9 +46,8 @@ const services = [
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <circle cx="12" cy="12" r="10"></circle>
-        <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path>
-        <path d="M2 12h20M12 2v20"></path>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="12" y1="3" x2="12" y2="21"></line>
       </svg>
     ),
     color: "bg-accent-pink", // pink
@@ -77,7 +76,7 @@ export default function Services() {
           transition={{ delay: 0.1 }}
           className="font-heading text-4xl md:text-5xl lg:text-6xl font-black text-[#1D1D1B] tracking-tight"
         >
-          What I can do for you
+          How I Can Help
         </motion.h2>
       </div>
 
